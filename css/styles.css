@@ -123,8 +123,8 @@ nav:hover ul {
 }
 
 nav i {
-    /* top: 10px;
-    left: 16px; */
+    top: 10px;
+    left: 16px;
     margin: 10px 0 0 50px;
     font-size: 300%;
     display: inline-block;
