@@ -6,13 +6,53 @@ html, body {
 }
 
 h2 {
-    /* font-family: 'Noto Sans JP', sans-serif; */
     font-size: 200%;
     font-weight: 700;
     color: #2c2c2c;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Noto Sans JP', sans-serif;
 }
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 700%;
+    position: absolute;
+    display: inline-block;
+}
+
+h3:hover {
+    opacity: .6;
+}
+
+/* #bands01 {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.rainbow {
+    background: linear-gradient(to right, #075eff, #6666ff, #0099ff , #00ff00, #fae102, #f86e13, #ff3399,#f71313, #6666ff, #16ffe0, #04ffb4, #ff2cff, #ff0095, rgb(255, 166, 0), rgb(247, 247, 2), rgb(15, 255, 15), rgb(0, 204, 255), rgb(231, 0, 231), rgb(204, 0, 255), rgb(255, 154, 255), #0099ff , #00ff00, #fae102, #f86e13, #ff3399,#f71313);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 40s ease-in-out infinite;
+    background-size: 400% 100%;
+    /* -webkit-animation:colorchange 20s infinite alternate; */
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+  
+    50% {
+        background-position: 100% 0;
+    }
+  }
 
 p {
     font-family: 'Special Elite', cursive;
@@ -149,6 +189,95 @@ nav i {
     /* float: left; */
 }
 
+/* .one-third-port img:hover {
+    opacity: .6;
+} */
+
+.contact p {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.contact a {
+    color: #2c2c2c;
+}
+
+.break {
+    display: none;
+}
+
+.clearfix {
+    clear: both;
+    height: 3%;
+}
+
+.parallax {
+    background: url("../img/wetlandsSunset-2.jpg") no-repeat center center fixed;
+    /* opacity: .9; */
+}
+
+.parallax-inner {
+    padding-top: 17%;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 400%;
+    margin: 1% 5% 7% 4%;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+#github {
+    color: rgb(58, 90, 45);
+}
+
+#github:hover {
+    color: #3cc520;
+  }
+  
+  #linkedin {
+      color:rgb(28, 39, 87)
+  }
+
+  #linkedin:hover {
+    color: rgb(0, 47, 255); 
+  }
+  
+  #instagram {
+      color:rgb(75, 16, 8)
+  }
+
+  #instagram:hover {
+    color: rgb(247, 29, 0);
+  }
+  
+  #email {
+    color: rgb(61, 0, 61);
+  }
+
+  #email:hover {
+    color:rgb(250, 12, 250)
+  }
+  
+  #mobile {
+      color:rgb(107, 105, 0)
+  }
+
+  #mobile:hover {
+    color: rgb(255, 251, 30);
+  }
 
 /* font-family: 'Bungee Outline', cursive;
 font-family: 'Bungee Shade', cursive;
