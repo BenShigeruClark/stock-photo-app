@@ -281,6 +281,19 @@ nav i {
     color: rgb(255, 251, 30);
   }
 
+  footer.second {
+      background-color: #707070;
+  }
+
+  footer.second p {
+    color: #FFF;
+    text-align: center;
+  }
+
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
 /* font-family: 'Bungee Outline', cursive;
 font-family: 'Bungee Shade', cursive;
 font-family: 'Butcherman', cursive;

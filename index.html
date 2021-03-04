@@ -17,7 +17,9 @@
                 <a href="#" id="menu-icon"></a>
                 <ul>
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#port">Portfolio</a></li>
+                    <li><a href="#ninetiesBands">90's Bands</a></li>
+                    <li><a href="#2000Bands">2000 to Present Bands</a></li>
+                    <li><a href="#birds">Birds</a></li>
                     <li><a href="#serv">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -49,23 +51,27 @@
             <p>Photo by: Isabella Clark</p>
         </section>
         <div class="clearfix"></div>
-        <a name="port">
-        <h2>Portfolios</h2>
         <section class="one-third-port">
             <a href="https://github.com/BenShigeruClark" target="_blank">
                 <h3 class="rainbow" id="bands01">90's Bands</h3>
             </a>
-            <img src="./img/benClarkPort2020-01-3.jpg" width="75%"/>
+            <a name="ninetiesBands">
+                <img src="./img/benClarkPort2020-01-3.jpg" width="75%"/>
+            </a>
         </section>
-        <h3 class="rainbow" id="bands02">2000 to Present Bands</h3>
+        <a href="https://github.com/BenShigeruClark" target="_blank">
+            <h3 class="rainbow" id="bands02">2000 to Present Bands</h3>
+        </a>
         <section class="one-third-port">
-            <a href="https://github.com/BenShigeruClark" target="_blank">
+            <a name="2000Bands">
             <img src="./img/RayBarbee-DSCF1415-8717.jpg" width="75%"/>
             </a>
         </section>
-        <h3 class="rainbow" id="birds">Birds</h3>
+        <a href="https://github.com/BenShigeruClark" target="_blank">
+            <h3 class="rainbow" id="birds">Birds</h3>
+        </a>
         <section class="one-third-port">
-            <a href="https://github.com/BenShigeruClark" target="_blank">
+            <a name="birds">
             <img src="./img/blackCrownedNightHeron-DSCF1415-2563.jpg" width="75%"/>
             </a>
         </section>
@@ -145,5 +151,10 @@
             <footer class="second">
                 <p>&copy; Ben Clark Photography.</p>
             </footer>
+            <script>  
+                window.onbeforeunload = function () {
+                    window.scrollTo(0, 0);
+                }; 
+            </script>
     </body>
 </html>
