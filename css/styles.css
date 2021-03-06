@@ -14,20 +14,6 @@ h2 {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-h3 {
-    font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
-    font-size: 700%;
-    position: absolute;
-    display: inline-block;
-    justify-content: center;
-    
-}
-
-h3:hover {
-    opacity: .6;
-}
-
 /* #bands01 {
     text-decoration: none;
     position: absolute;
@@ -66,6 +52,8 @@ p {
 }
 
 img {
+    /* position: relative; */
+    display: inline-block;
     text-align: center;
     max-width: 100%;
     height: auto;
@@ -186,13 +174,49 @@ nav i {
     margin: 4%;
 }
 
-.one-third-port {
-    width: 100%;
-    /* float: left; */
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 800%;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
 }
 
-/* .one-third-port img:hover {
+h3:hover {
     opacity: .6;
+}
+
+#bands01 {
+    left: 600px;
+    margin-top: 450px;
+}
+
+#bands02 {
+    left: 250px;
+    margin-top: 450px;
+}
+
+#birds01 {
+    left: 750px;
+    margin-top: 450px;
+}
+
+.rainbow {
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+/* .picText {
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 } */
 
 .contact p {
@@ -212,6 +236,12 @@ nav i {
     clear: both;
     height: 3%;
 }
+
+/* .pics {
+    display: block;
+    height: auto;
+    width: auto;
+} */
 
 .parallax {
     background: url("../img/wetlandsSunset-2.jpg") no-repeat center center fixed;
@@ -290,7 +320,7 @@ nav i {
     text-align: center;
   }
 
-  .contact-details:hover {
+  .btn contact-details:hover {
     transform: translateY(8px);
   }
 
